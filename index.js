@@ -1,6 +1,6 @@
 var randomNumber1 = Math.floor(Math.random() * 6) + 1;
 console.log(randomNumber1);
-var randomImage = "https://github.com/WebsiteTestings/Dicee_Challenge/blob/main/images/dice1.PNG" ;
+var randomImage = "/images/dice1.png" ;
 console.log(randomImage);
 document.querySelector(".img1").setAttribute("src", randomImage);
 
